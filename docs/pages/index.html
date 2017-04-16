@@ -1,0 +1,36 @@
+---
+title:    Home
+ref:      index
+layout:   default
+permalink: /index.html
+---
+
+<div class="container">
+
+  <h1>{{site.title}}</h1>
+
+  <hr>
+
+  <p>The site is available in the following languages:</p>
+
+  <div class="d-flex flex-row">
+    {% for lang in site.data.locales %}
+    <a class="p-2" href="{{site.baseurl}}/{{lang[0]}}/home/">{{lang[1].main.name}}</a>
+    {% endfor %}
+  </div>
+
+  <hr>
+
+  <div class="alert alert-warning" role="alert">
+    <strong>Warning!</strong> Please make sure JavaScript is enabled in your web browser.
+  </div>
+
+</div>
+
+
+<script>
+  var supportedLocales = [
+    {% for lang in site.data.locales %} '{{lang[0]}}', {% endfor %}
+  ];
+</script>
+<script src="{{site.baseurl}}/assets/redirectToLocalizedHome.js"></script>

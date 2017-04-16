@@ -1,0 +1,17 @@
+name: 'FR'
+
+dictionary:
+  previous:   Précédent
+  next:       Prochain
+  toggleNav:  Navigation
+
+menu:
+  home:
+    name: 'Accueil'
+    url: '/'
+  features:
+    name: 'Fonctionalités'
+    url: '/#features'
+  about:
+    name: 'À propos'
+    url: '/#about'

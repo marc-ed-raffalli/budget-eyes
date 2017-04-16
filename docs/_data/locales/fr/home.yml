@@ -1,0 +1,22 @@
+carousel:
+  - header: 'foo'
+    content: ''
+    image:
+      url: ''
+      alt: 'Some image'
+
+  - header: 'bar'
+    content: ''
+    image:
+      url: ''
+      alt: 'Some image'
+
+features:
+  - header: 'Some header A'
+    content: 'Some content A'
+
+  - header: 'Some header B'
+    content: 'Some content B'
+
+  - header: 'Some header C'
+    content: 'Some content C'

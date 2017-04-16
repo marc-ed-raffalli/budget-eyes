@@ -1,0 +1,45 @@
+carousel:
+
+  - header:   Free budget tracking application
+    content:  Budget-eyes is a mobile application available for free on the Android market.
+    image:
+      url: ''
+      alt: 'Some image'
+
+  - header:   Organize your expenses
+    content:  Give a sense to your expenses and finally have an answer to "Where is my money going?".
+    image:
+      url: ''
+      alt: 'Some image'
+
+  - header:   Set your budgets
+    content:
+      Create and personalize your "budgets".
+      View the evolution of their status days after days and what is left at the end of the week / month.
+    image:
+      url: ''
+      alt: 'Some image'
+
+  - header:   Contribute the translations
+    content:  If you wish the App to be available in another language, it is very easy to help, no coding skills are required.
+    image:
+      url: ''
+      alt: 'Some image'
+
+features:
+
+  - header:   Intuitive and customizable
+    content:
+      - Budget-eyes uses an intuitive concept of "tags" and "budgets" which you create and customize.
+      - The "tags" describe what was each expense is about e.g. snack, metro, ...
+      - The "budgets" allow you to keep an eye on a group of tags relating to a specific area e.g. a "Transports" budget to keep track of what is spent on "bus", "metro", "taxi".
+
+  - header:   Visualize your expenses trend on graphs
+    content:  Budget-eyes gives you an overview of your expenses in clean modern graphs.
+
+  - header:   No signup, no registration, no fee
+    content:  Install Budget-eyes and get started right away.
+
+  - header:   Your privacy matters
+    content:  Your expenses are your business, and only yours.
+              Budget-eyes understands it and does not collect any data about it.

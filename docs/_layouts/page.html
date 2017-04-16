@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% assign locales=site.data.locales %}
+{% assign menuItems=site.data.locales[page.lang].main.menu %}
+{% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+
+{% include navbar.html
+menuItems=menuItems
+locales=locales
+dictionary=dictionary
+%}
+
+{{content}}
+
+<div class="container">
+  {% include footer.html %}
+</div>

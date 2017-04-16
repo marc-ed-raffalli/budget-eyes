@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% assign slides=site.data.locales[page.lang].home.carousel %}
+{% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+{% include carousel.html
+id="overviewCarousel"
+slides=slides
+dictionary=dictionary
+%}
+
+<div class="container">
+  {% assign features=site.data.locales[page.lang].home.features %}
+  {% include featurettes.html features=features %}
+</div>
