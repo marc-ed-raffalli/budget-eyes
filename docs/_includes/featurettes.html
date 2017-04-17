@@ -1,4 +1,6 @@
 {% for feature in include.features %}
+<hr class="featurette-divider">
+
 <div class="row featurette">
   <div class="col-md-7 {% cycle '', 'push-md-5' %}">
     <h2 class="featurette-heading">{{feature.header}}</h2>
@@ -13,6 +15,4 @@
          alt="{{feature.image.alt}}">
   </div>
 </div>
-
-<hr class="featurette-divider">
 {% endfor %}

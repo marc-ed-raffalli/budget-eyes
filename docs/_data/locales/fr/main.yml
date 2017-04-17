@@ -6,12 +6,8 @@ dictionary:
   toggleNav:  Navigation
 
 menu:
-  home:
-    name: 'Accueil'
-    url: '/'
-  features:
-    name: 'Fonctionalités'
-    url: '/#features'
-  about:
-    name: 'À propos'
-    url: '/#about'
+  - name: Documentation
+    url:  'documentation'
+
+  - name: À propos
+    url:  'a-propos'

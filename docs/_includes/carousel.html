@@ -16,11 +16,9 @@
       <img src="{{slide.image.url}}"
            alt="{{slide.image.alt}}">
       {% endif %}
-      <div class="container">
-        <div class="carousel-caption d-none d-md-block text-left">
-          <h1>{{slide.header}}</h1>
-          <p>{{slide.content}}</p>
-        </div>
+      <div class="carousel-caption text-left">
+        <h1 class="">{{slide.header}}</h1>
+        <p class="d-none d-md-block">{{slide.content}}</p>
       </div>
     </div>
     {% endfor %}

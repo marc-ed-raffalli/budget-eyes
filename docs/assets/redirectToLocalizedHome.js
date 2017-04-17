@@ -15,6 +15,6 @@
     }
   }
 
-  window.location.href = bestMatchLocale + '/home/';
+  window.location.href = bestMatchLocale;
 
 }());

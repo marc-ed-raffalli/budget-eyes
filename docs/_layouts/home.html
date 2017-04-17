@@ -1,9 +1,20 @@
 ---
-layout: page
+layout: default
 ---
+
+{% assign locales=site.data.locales %}
+{% assign menuItems=site.data.locales[page.lang].main.menu %}
+{% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+
+{% include navbar.html
+menuItems=menuItems
+locales=locales
+dictionary=dictionary
+%}
 
 {% assign slides=site.data.locales[page.lang].home.carousel %}
 {% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+
 {% include carousel.html
 id="overviewCarousel"
 slides=slides
@@ -13,4 +24,6 @@ dictionary=dictionary
 <div class="container">
   {% assign features=site.data.locales[page.lang].home.features %}
   {% include featurettes.html features=features %}
+
+  {% include footer.html %}
 </div>
