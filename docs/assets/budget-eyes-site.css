@@ -60,12 +60,31 @@ Additional styles
   padding-top: 3rem;
 }
 
+.be-page h1 {
+  margin-bottom: 1.5rem;
+}
+
 .be-page h2 {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #bbb;
 
   margin-bottom: 1rem;
+}
+
+.be-page h3 {
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #dedede;
+
+  margin-bottom: 0.75rem;
+}
+
+.be-page h4 {
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+
+  margin-bottom: 0.5rem;
 }
 
 .be-page table {

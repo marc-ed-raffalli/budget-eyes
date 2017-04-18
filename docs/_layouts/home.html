@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% assign locales=site.data.locales %}
-{% assign menuItems=site.data.locales[page.lang].main.menu %}
-{% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+{% assign menuItems=site.menu %}
+{% assign dictionary=site.data.locales[page.lang].dictionary %}
 
 {% include navbar.html
 menuItems=menuItems
@@ -13,7 +13,7 @@ dictionary=dictionary
 %}
 
 {% assign slides=site.data.locales[page.lang].home.carousel %}
-{% assign dictionary=site.data.locales[page.lang].main.dictionary %}
+{% assign dictionary=site.data.locales[page.lang].dictionary %}
 
 {% include carousel.html
 id="overviewCarousel"

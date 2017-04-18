@@ -1,2 +1,8 @@
 title: Budget-eyes App
 baseurl: '/budget-eyes'
+
+google_analytics: UA-97591265-1
+
+menu:
+  - ref:  documentation
+  - ref:  about

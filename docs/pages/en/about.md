@@ -21,5 +21,6 @@ A big thanks to the developers of:
 - [PouchDB](https://pouchdb.com/)
 - [Angular Chart](https://jtblin.github.io/angular-chart.js/) / [Chart.js](http://www.chartjs.org/)
 - [Protractor](http://www.protractortest.org/)
+- [Async](https://caolan.github.io/async/)
 - [Jekyll](https://jekyllrb.com/)
 - [Bootstrap](https://getbootstrap.com/)

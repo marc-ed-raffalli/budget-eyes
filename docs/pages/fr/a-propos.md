@@ -1,7 +1,7 @@
 ---
 title:      À propos
 lang:       fr
-ref:        a-propos
+ref:        about
 layout:     page
 permalink:  /fr/a-propos/
 ---

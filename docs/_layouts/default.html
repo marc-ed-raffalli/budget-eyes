@@ -11,6 +11,10 @@
   <!-- Custom styles for this template -->
   <link href="{{site.baseurl}}/assets/budget-eyes-site.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/tether.min.css" rel="stylesheet">
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 <body>
 

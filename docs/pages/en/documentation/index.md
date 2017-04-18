@@ -9,12 +9,14 @@ permalink:  /en/documentation/
 
 The application helps to keep track of expenses and allows the users to associate metadata to each expense (date, description, tags).
 
+
+## Concepts
+
 The chapters below explain in details the different concepts and how to leverage them.
 
 
-## Expenses
 
-All the logged expenses are available in the Expense list screen, organized by month.
+### Expenses
 
 The `expenses` are represented by an amount spent on a certain date and associated to certain `tags` / categories.
 
@@ -22,9 +24,7 @@ This is the main data, it is important to read about `tags` and set a categoriza
 
 
 
-## Tags
-
-All the tags are listed in the Tag list screen.
+### Tags
 
 The `tags` (equiv. categories) are used to establish a classification of the expenses based on each expense's associated tags.
 
@@ -51,9 +51,7 @@ Tags can also be added / removed anytime from any budget or expenses, but a **ta
 
 
 
-## Budgets
-
-All the budgets and their summary for each period in viewable in the Budget list screen.
+### Budgets
 
 A `budget` helps to monitor what is spent on a weekly or monthly basis on a selection of tags.
 
@@ -65,10 +63,12 @@ It is possible to monitor what is spent on food at work by creating a dedicated 
 This budget should have an estimated total for a given period, either weekly or monthly and list the tags *Daily drink*, *Daily lunch* and *Daily snack*.
 The estimated total can be updated anytime, it is used to represent a threshold. 
 
-## Settings
 
-The Settings screen offers configuration over the following:
 
-**Language**: The main application language, does not affect any content created by the user.
+## Application Screens overview
 
-**Currency**: The currency symbol used by the application to display the amount with.
+- [Expense Screens]({{site.baseurl}}{% link pages/en/documentation/expense-screens.md %})
+- [Budget Screens]({{site.baseurl}}{%  link pages/en/documentation/budget-screens.md  %})
+- [Tag Screens]({{site.baseurl}}{%     link pages/en/documentation/tag-screens.md     %})
+- [Overview Screen]({{site.baseurl}}{% link pages/en/documentation/overview-screen.md %})
+- [Settings Screen]({{site.baseurl}}{% link pages/en/documentation/settings-screen.md %})

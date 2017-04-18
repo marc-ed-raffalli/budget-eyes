@@ -9,6 +9,6 @@ https://marc-ed-raffalli.github.io/budget-eyes/
 ## TODO
 
 - [x] Create QR code for the site / app
-- [] Add Google Analytics
+- [x] Add Google Analytics
 - [] Add privacy statement
-- [] Angular 3 or 4 ? carousel error when sliding
+- [] Bootstrap 3 or 4 ? carousel error when sliding
