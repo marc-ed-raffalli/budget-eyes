@@ -10,8 +10,8 @@ permalink:  /en/documentation/tag-screens/
 
 
 - [Expense Screens]({{site.baseurl}}{%  link pages/en/documentation/expense-screens.md %})
-- [Budget Screens]({{site.baseurl}}{%   link pages/en/documentation/budget-screens.md  %})
 - **[Tag Screens]({{site.baseurl}}{%    link pages/en/documentation/tag-screens.md     %})**
+- [Budget Screens]({{site.baseurl}}{%   link pages/en/documentation/budget-screens.md  %})
 - [Overview Screen]({{site.baseurl}}{%  link pages/en/documentation/overview-screen.md %})
 - [Settings Screen]({{site.baseurl}}{%  link pages/en/documentation/settings-screen.md %})
 

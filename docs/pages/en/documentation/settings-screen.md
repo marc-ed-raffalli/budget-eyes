@@ -9,11 +9,11 @@ permalink:  /en/documentation/settings-screen/
 # Application Screens overview
 
 
-- [Expense Screens]({{site.baseurl}}{%    link pages/en/documentation/expense-screens.md %})
-- [Budget Screens]({{site.baseurl}}{%     link pages/en/documentation/budget-screens.md  %})
-- [Tag Screens]({{site.baseurl}}{%        link pages/en/documentation/tag-screens.md     %})
-- [Overview Screen]({{site.baseurl}}{%    link pages/en/documentation/overview-screen.md %})
-- **[Settings Screen]({{site.baseurl}}{%  link pages/en/documentation/settings-screen.md %})**
+- [Expense Screens]({{site.baseurl}}{%   link pages/en/documentation/expense-screens.md %})
+- [Tag Screens]({{site.baseurl}}{%       link pages/en/documentation/tag-screens.md     %})
+- [Budget Screens]({{site.baseurl}}{%    link pages/en/documentation/budget-screens.md  %})
+- [Overview Screen]({{site.baseurl}}{%   link pages/en/documentation/overview-screen.md %})
+- **[Settings Screen]({{site.baseurl}}{% link pages/en/documentation/settings-screen.md %})**
 
 
 ### Settings
