@@ -18,6 +18,7 @@ body {
   bottom: 3rem;
 
   width: 70%;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .carousel-caption h1 {
@@ -26,16 +27,21 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 24rem;
   background-color: #777;
 }
 
 .carousel-item > img {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  min-width: 100%;
-  height: 32rem;
+  right: 0;
+
+  width: 100%;
+  height: auto;
+
+  margin: auto;
 }
 
 /* Featurettes
@@ -101,15 +107,15 @@ Additional styles
   border-top: 1px solid #cccccc;
 }
 
-/*.carousel-indicators .active {*/
-  /*background-color: #ffc900;*/
-/*}*/
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
+@media (min-width: 576px) {
+
+  .carousel-item {
+    height: 32rem;
+  }
+
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -119,6 +125,18 @@ Additional styles
   .featurette-heading {
     font-size: 50px;
   }
+
+}
+
+@media (min-width: 992px) {
+
+  .carousel-item > img {
+    width: auto;
+    height: 32rem;
+
+    margin: 0 auto;
+  }
+
 }
 
 @media (min-width: 62em) {

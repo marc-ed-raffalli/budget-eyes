@@ -1,4 +1,4 @@
-# Budget-eyes App docs
+# Budget Eyes App docs
 
 **This is a work in progress.**
 

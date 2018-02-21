@@ -9,10 +9,16 @@
     <p class="lead">{{contentParagraph}}</p>
     {% endfor %}
   </div>
-  <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto"
-         src="{{feature.image.url}}"
-         alt="{{feature.image.alt}}">
+  <div class="col-md-5 {% cycle '', 'pull-md-7' %}">
+    {% if feature.image.url %}
+    <a href="{{feature.image.url}}"
+       data-lightbox="features"
+       data-title="{{feature.header}}">
+      <img class="featurette-image img-fluid mx-auto"
+           src="{{feature.image.url}}"
+           alt="{{feature.image.alt}}">
+    </a>
+    {% endif %}
   </div>
 </div>
 {% endfor %}

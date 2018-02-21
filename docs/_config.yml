@@ -1,7 +1,9 @@
-title: Budget-eyes App
+title: Budget Eyes App
 baseurl: '/budget-eyes'
 
 google_analytics: UA-97591265-1
+
+copyright: © 2018 - Marc Ed. Raffalli
 
 menu:
   - ref:  documentation
