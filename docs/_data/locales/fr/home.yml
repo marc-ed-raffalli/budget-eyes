@@ -1,22 +1,50 @@
 carousel:
-  - header: 'foo'
-    content: ''
-    image:
-      url: ''
-      alt: 'Some image'
 
-  - header: 'bar'
-    content: ''
+  - header:   Application de suivi de budget gratuite
+    content:  Budget Eyes est une application mobile disponible gratuitement pour Android.
     image:
-      url: ''
-      alt: 'Some image'
+      url: '/budget-eyes/assets/img/logo.png'
+      alt: 'App logo'
+
+  - header:   Organizez vos dépenses
+    content:  Trouvez la réponse à "Où va mon argent?"
+    image:
+      url: '/budget-eyes/assets/img/grouped/organize-your-expenses.png'
+      alt: 'Organizez vos dépenses'
+
+  - header:   Définissez vos budgets
+    content:
+      Créez et mettez en place vos "budgets" personnels. Gardez un œil sur l'évolution de leur statut jours après jours ainsi de ce qui reste à la fin de la semaine / mois.
+    image:
+      url: '/budget-eyes/assets/img/grouped/set-your-budgets.png'
+      alt: 'Définissez vos budgets'
+
+  - header:   Aidez à la traduction
+    content:  Rendez l'application disponible dans votre langue, c'est très facile! Aucune experience de programmation requise.
+    image:
+      url: '/budget-eyes/assets/img/grouped/contribute-translations.png'
+      alt: 'Aidez à la traduction'
 
 features:
-  - header: 'Some header A'
-    content: 'Some content A'
 
-  - header: 'Some header B'
-    content: 'Some content B'
+  - header:   Intuitive et personnalisable
+    content:
+      - Budget Eyes utilise un concept intuitif de "tags" et de "budgets" que vous créez et personnalisez selon vos besoins.
+      - 'Les "tags" décrivent la raison de la dépense, par exemple: snack, métro, ...'
+      - 'Les "budgets" vous permettent de garder un œil sur un groupe de "tags", par exemple: un budget "Transports" pour suivre les dépenses pour le "bus", "métro", "taxi".'
+    image:
+        url: '/budget-eyes/assets/img/grouped/en-tags-budgets.png'
+        alt: 'Écrans des tags et des budgets'
 
-  - header: 'Some header C'
-    content: 'Some content C'
+  - header:   Visualisez l'évolution de vos dépenses
+    content:  Budget Eyes vous aide à visualizer vos dépenses avec des graphiques simples et modernes.
+    image:
+        url: '/budget-eyes/assets/img/grouped/overview-charts.png'
+        alt: 'Graphiques du dashboard'
+
+  - header:   Sans inscription, sans formulaire, sans frais
+    content:  Installez Budget Eyes et commencez en toute simplicité.
+
+  - header:   Votre vie privée est importante
+    content:  Vos dépenses sont personnelles et ne regardent que vous.
+              Budget Eyes le respecte et ne collecte aucune donnée à ce sujet.

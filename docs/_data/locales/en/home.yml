@@ -1,27 +1,27 @@
 carousel:
 
   - header:   Free budget tracking application
-    content:  Budget Eyes is a mobile application available for free on the Android market.
+    content:  Budget Eyes is a mobile application available for free on the Android market
     image:
       url: '/budget-eyes/assets/img/logo.png'
       alt: 'App logo'
 
   - header:   Organize your expenses
-    content:  Give a sense to your expenses and finally have an answer to "Where is my money going?".
+    content:  Give a sense to your expenses and finally have an answer to "Where is my money going?"
     image:
       url: '/budget-eyes/assets/img/grouped/organize-your-expenses.png'
-      alt: 'Set your budgets'
+      alt: 'Organize your expenses'
 
   - header:   Set your budgets
     content:
       Create and personalize your "budgets".
-      View the evolution of their status days after days and what is left at the end of the week / month.
+      View the evolution of their status days after days and what is left at the end of the week / month
     image:
       url: '/budget-eyes/assets/img/grouped/set-your-budgets.png'
       alt: 'Set your budgets'
 
   - header:   Contribute the translations
-    content:  If you wish the App to be available in another language, it is very easy to help, no coding skills are required.
+    content:  If you wish the App to be available in another language, it is very easy to help, no coding skills are required
     image:
       url: '/budget-eyes/assets/img/grouped/contribute-translations.png'
       alt: 'Contribute translations'

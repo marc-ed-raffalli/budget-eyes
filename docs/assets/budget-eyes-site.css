@@ -47,6 +47,10 @@ body {
 /* Featurettes
 ------------------------- */
 
+.featurette {
+  margin-top: 5rem;
+}
+
 .featurette-divider {
   margin: 2.5rem 0;
 }
@@ -139,8 +143,3 @@ Additional styles
 
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 5rem;
-  }
-}
